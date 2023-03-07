@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.3.15","target":"arcade","targetVersion":"1.12.24"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.24/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.24","repo":"kiwiphoenix364/pxt-raycasting-mod-grayscale"}
 // total=1490541 new=17.99% cached=76.55% other=5.46%
 (function (ectx) {
 'use strict';
@@ -8663,7 +8663,7 @@ switch (step) {
     s.tmp_8 = r0;
     r0 = (s.tmp_6 * s.tmp_8);
     s.tmp_5 = r0;
-    r0 = (s.dis___8536 / 4);
+    r0 = (s.dis___8536 / 2);
     s.tmp_10 = r0;
     r0 = s.arg0.fields["darknessMod"];
     s.tmp_11 = r0;
