@@ -558,7 +558,7 @@ namespace Render {
                 const tex = this.textures[color].clone()
                     let dis = Math.sqrt((mapX - Render.getRenderSpriteInstance().x / 16) ** 2 + (mapY - Render.getRenderSpriteInstance().y / 16) ** 2)
                     for (let i = 0; i < 15; i++) {
-                        tex.replace(i + 1, Math.constrain((i + 1) / 2 * this.textureVisibility + dis / 2 * this.darknessMod, 1, 15))
+                        tex.replace(15 - i, Math.constrain((15 - i) / this.textureVisibility + dis / this.darknessMod, 1, 15))
                     }
                 
                 
